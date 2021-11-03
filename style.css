@@ -1,0 +1,7 @@
+.card { 
+    height: 40%;
+    object-fit: cover
+}
+.btn {
+    min-width: 250px;
+}
