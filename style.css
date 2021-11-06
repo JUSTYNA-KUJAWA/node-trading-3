@@ -1,7 +1,22 @@
-.card { 
-    height: 40%;
-    object-fit: cover
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    text-align: center;
 }
-.btn {
-    min-width: 250px;
+.img {
+    height: 100vh;
 }
+.card-details {
+    right: auto;
+    bottom: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    left: 80%;
+    top: 40%;
+    transform: translatex, y(-50%, -50%); }
+@media (max-width: 767px) {
+        .card-body {
+          flex-direction: column; }
+          .row {
+            flex-direction: column; }
+        }
+        
